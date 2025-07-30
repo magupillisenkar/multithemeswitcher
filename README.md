@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Multi-Theme Product Showcase – Senkar Rao
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a modern, secure, and user-friendly single-page application built with ReactJS. The application dynamically displays products using the Fake Store API and supports multiple themes with smooth transitions and clean design.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Dynamic product integration using https://fakestoreapi.com/products
+- Context API used for global theme management
+- Tailwind CSS used via CDN for fast and responsive UI styling
+- Framer Motion used for smooth animations and transitions
+- Single-page architecture for a seamless user experience
+- Clean, maintainable, and modular code structure
 
-### `npm start`
+## Project Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+multi-theme-switcher/
+├── public/  
+├── src/  
+│   ├── assets/ - Contains images and other static resources  
+│   ├── components/  
+│   │   ├── Header.js - Top navigation bar with theme selector  
+│   │   └── ProductCard.js - Card layout for individual products  
+│   ├── contexts/  
+│   │   └── ThemeContext.js - React Context for theme management  
+│   ├── pages/  
+│   │   ├── Home.js - Displays all products  
+│   │   ├── About.js - Company information  
+│   │   └── Contact.js - Contact information   
+│   ├── App.js - Main app with routes and layout  
+│   └── main.js - Entry point for the React app
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technical Overview
 
-### `npm test`
+- ReactJS version: 19.1.1  
+- Node.js version: v18.18.1  
+- Tailwind CSS: via CDN format  
+- Theme context stores dynamic class names which are applied based on the selected theme 
+- Framer Motion is used to add minimal yet modern animations  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Notes
 
-### `npm run build`
+- I have implemented the application using JavaScript instead of TypeScript, as I have strong experience in JavaScript and it allowed me to build quickly and effectively.  
+- If TypeScript is required, I can convert the project in the next phase or future assignments.  
+- The code is written in a clean, modular, and scalable format to ensure ease of maintenance and future extension.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How to Run
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
+   git clone https://github.com/magupillisenkar/multithemeswitcher.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navigate to the project folder:
+   cd multithemeswitcher
 
-### `npm run eject`
+3. Install dependencies:
+   npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Start the development server:
+   npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contact
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Thank you for reviewing my submission.  
+If you need any further information or changes, please feel free to contact me.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Senkar Rao  
+Email: magupillisenkar@gmail.com
