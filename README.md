@@ -1,4 +1,4 @@
-# Multi-Theme Product Showcase – Senkar Rao
+# Multi-Theme Switcher App
 
 This is a modern, secure, and user-friendly single-page application built with ReactJS. The application dynamically displays products using the Fake Store API and supports multiple themes with smooth transitions and clean design.
 
